@@ -2,4 +2,9 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
-return {}
+return {
+  require 'custom.plugins.theme',
+  require 'custom.plugins.noice',
+  require 'custom.plugins.tabby',
+  require 'custom.plugins.tmux',
+}
